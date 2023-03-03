@@ -42,7 +42,7 @@ function FlashCards({ index, Q, R, setContador, contador }) {
     }
 
     return (
-        <PerguntaSingle data-test="flashcard-text" background={background} tamanho={tamanho} size={size} weight={weight} >
+        <PerguntaSingle data-test="flashcard" background={background} tamanho={tamanho} size={size} weight={weight} >
             <PerguntaId opacity={opacity} display={display}>
                 <h2 data-test="flashcard-text" className={cor}>{text}</h2>
                 <img data-test={dataTest} onClick={() => mostrarPergunta(setPergunta, setText, Q, icone)}
