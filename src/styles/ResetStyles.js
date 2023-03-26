@@ -113,7 +113,7 @@ const ResetStyles = createGlobalStyle`
 
     body {
         line-height: 1;
-        background-color: #FB6B6B;
+        background-color: #FB6B6B;    
     }
 
     ol,

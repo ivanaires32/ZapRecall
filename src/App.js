@@ -5,14 +5,19 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 
 const PerguntasRespostas = [
-  { Q: "O que é JSX?", R: "Uma extensão de linguagem do JavaScript" },
-  { Q: "O React é ...", R: "uma biblioteca JavaScript para construção de interfaces" },
-  { Q: "Componentes devem iniciar com ...", R: "letra maiúscula" },
-  { Q: "Podemos colocar ... dentro do JSX", R: "expressões" },
-  { Q: "O ReactDOM nos ajuda ...", R: "interagindo com a DOM para colocar componentes React na mesma" },
-  { Q: "Usamos o npm para ...", R: "gerenciar os pacotes necessários e suas dependências" },
-  { Q: "Usamos props para ...", R: "passar diferentes informações para componentes" },
-  { Q: "Usamos estado (state) para", R: "dizer para o React quais informações quando atualizadas devem renderizar a tela novamente" }
+  { Q: "Em qual ano foi oficializado o clube de Desbravadores", R: "1950" },
+  { Q: "O triangulo, escudo e espada correspondem a ...", R: "Trindade, Fé e Biblia" },
+  { Q: "Os 4 As do maratana correspondem a ...", R: "amar, anunciar, apressar e aguardar a volta de Cristo" },
+  { Q: "O clube de Desbravadores tem 5 cores, verdadeiro ou falso?", R: "Falso" },
+  { Q: "O amarelo no Clube de Desbravadores signidica ...", R: "Excelencia dos ideais" },
+  { Q: "O azul no Clube de Desbravadores signidica ...", R: "Lealdade" },
+  { Q: "O branco no Clube de Desbravadores signidica ...", R: "Pureza" },
+  { Q: "O vermelho no Clube de Desbravadores signidica ...", R: "Sangue de Cristo" },
+  { Q: "Qual pastor foi responsavel pela composição do hino dos Desbravadores", R: "Henry Berg" },
+  { Q: "Qual pastor foi responsavel pela elaboração do triangulo dos Desbravadores", R: "Jhon Hancock" },
+  { Q: "Qual pastor foi responsavel pela elaboração da bandeira dos Desbravadores", R: "Henry Berg" },
+  { Q: "Quais são os 10° livro do antigo testamento e 8° livro do novo testamento", R: "2° Samuel e Gálatas" },
+
 ]
 
 export default function App() {
